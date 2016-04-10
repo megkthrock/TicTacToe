@@ -1,13 +1,3 @@
-
-# puts "What is your first name?"
-# first_name = gets.chomp
-
-# puts "What is your last name?"
-# last_name = gets.chomp
-
-# puts "Your name is #{first_name + " " + last_name}."
-
-
 def display_game_board(array)
 	array
 	puts """ 
@@ -54,14 +44,15 @@ def player_two_marker(p1)
 end
 
 def player_one_choose_first_move()
-	puts "Player 1, choose a space 1-9."
+	puts "Player 1, make your move."
 	player_one_first_move = gets.chomp
 	player_one_first_move.to_i
 end
 
 def player_two_choose_first_move()
-	puts "Player 2, choose a remaining number."
+	puts "Player 2, make your move."
 	player_two_first_move = gets.chomp
 	player_two_first_move.to_i
 end
+
 

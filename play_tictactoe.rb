@@ -24,3 +24,5 @@ player_two_first_move = player_two_choose_first_move
 board_array[player_two_first_move - 1] = player_two
 
 display_game_board(board_array)
+
+
